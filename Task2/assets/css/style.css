@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4e4e4e;
+    display: flex;
+    justify-content: center;
+}
+
+.common{
+    width: 1300px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.common .item{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.common .item:nth-child(1) .img{
+    width: 300px;
+    height: 200px;
+    background-image: url(../imgs/London.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+    position: absolute;
+}
+.common .item:nth-child(1) span{
+    color: #fd0d70;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 220px;
+}
+.common .item:nth-child(1) h1{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 250px;
+}
+.common .item:nth-child(1) p{
+    color: #bebdc1;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 290px;
+    width: 230px;
+}
+.common .item:nth-child(1) .bottom{
+    background-color: #fd0d70;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 520px;
+}
+
+.common .item:nth-child(1) .bottom ul{
+    display: flex;
+    position: absolute;
+    gap: 23px;
+}
+.common .item:nth-child(1) .bottom ul li{
+    color: white;
+    font-size: 17px;
+    list-style-type: none;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.common .item:nth-child(1) .bottom ul li:nth-child(3){
+    margin-left: 33px;
+}
+
+
+.common .item:nth-child(2) .img{
+    width: 300px;
+    height: 200px;
+    background-image: url(../imgs/NewYork.avif);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+    position: absolute;
+}
+.common .item:nth-child(2) span{
+    color: #fe510c;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 220px;
+}
+.common .item:nth-child(2) h1{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 250px;
+}
+.common .item:nth-child(2) p{
+    color: #bebdc1;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 290px;
+    width: 230px;
+}
+.common .item:nth-child(2) .bottom{
+    background-color: #fe510c;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 520px;
+}
+
+.common .item:nth-child(2) .bottom ul{
+    display: flex;
+    position: absolute;
+    gap: 23px;
+}
+.common .item:nth-child(2) .bottom ul li{
+    color: white;
+    font-size: 17px;
+    list-style-type: none;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.common .item:nth-child(2) .bottom ul li:nth-child(3){
+    margin-left: 33px;
+}
+
+
+.common .item:nth-child(3) .img{
+    width: 300px;
+    height: 200px;
+    background-image: url(../imgs/Marrakech.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+    position: absolute;
+}
+.common .item:nth-child(3) span{
+    color: #02b43e;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 220px;
+}
+.common .item:nth-child(3) h1{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 250px;
+}
+.common .item:nth-child(3) p{
+    color: #bebdc1;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 290px;
+    width: 230px;
+}
+.common .item:nth-child(3) .bottom{
+    background-color: #02b43e;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 520px;
+}
+
+.common .item:nth-child(3) .bottom ul{
+    display: flex;
+    position: absolute;
+    gap: 23px;
+}
+.common .item:nth-child(3) .bottom ul li{
+    color: white;
+    font-size: 17px;
+    list-style-type: none;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.common .item:nth-child(3) .bottom ul li:nth-child(3){
+    margin-left: 33px;
+}
